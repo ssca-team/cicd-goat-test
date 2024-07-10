@@ -27,3 +27,4 @@ toml==0.10.2
     # via pre-commit
 virtualenv==20.14.0
     # via pre-commit
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
