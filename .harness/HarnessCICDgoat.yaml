@@ -23,7 +23,9 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo "hello"
+                        script: |-
+                          echo "hello"
+                          echo "<+trigger.branch>"
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
