@@ -12,3 +12,4 @@ LABEL org.opencontainers.image.vendor="Cider Security" \
     org.opencontainers.image.revision=$COMMIT_SHA
 
 COPY --chown=ctfd:ctfd data/CTFd /opt/CTFd
+
